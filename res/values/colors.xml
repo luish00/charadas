@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background Color  -->
+    <color name="background_blue">#59A9DA</color>
+    
+    <!-- Colors - correct and pass-  -->
+    <color name="correct">#63D01C</color>
+    <color name="pass">#CC0000</color>
+    
+    <!-- Botton colors -->
+    
+    <!-- shake -->
+    <color name="wet_asphalt">#34495E</color>
+    <color name="midnight_blue">#2C3E50</color>
+    
+    <!-- btn_create -->
+    <color name="sun_flower">#F1C40F</color>
+    <color name="orange">#F39C12</color>
+    
+    <!-- btn_movies -->
+    <color name="turquoise">#1ABC9C</color>
+    <color name="green_sea">#16A085</color>
+    
+    <!-- btn_characteres -->
+    <color name="emerald">#2ECC71</color>
+    <color name="nephritis">#27AE60</color>
+    
+    <!-- btn_videogames -->
+    <color name="peter_river">#3498DB</color>
+    <color name="belize_hole">#2980B9</color>
+    
+    <!-- btn_countries -->
+    <color name="carrot">#E67E22</color>
+    <color name="pumpkin">#D35400</color>
+    
+    <!-- btn_Artists -->
+    <color name="amethyst">#9B59B6</color>
+    <color name="wisteria">#8E44AD</color>
+    
+    <!-- btn_Animales -->
+    <color name="alizarin">#E74C3C</color>
+    <color name="pomegranate">#C0392B</color>
+    
+    <!-- btn_ActItOut -->
+    <color name="radicalred">#F62459</color>
+    <color name="razzmatazz">#DB0A5B</color>
+    
+    <!-- btn_SuperHeroes -->
+    <color name="jacksonspurple">#1F3A93</color>
+    <color name="chambray">#3A539B</color>
+    
+    <!-- btn_TvShows -->
+    <color name="mediumpurple">#BF55EC</color>
+    <color name="seance">#9A12B3</color>
+    
+    <!-- btn_KidsShows -->
+    <color name="junglegreen">#2ABB9B</color>
+    <color name="mountainmeadow">#16A085</color>
+    
+    <!-- btn_Configuration -->
+    <color name="concrete">#95A5A6</color>
+    <color name="asbestos">#7F8C8D</color>
+    
+    <!-- Text color -->
+    <color name="white">#F5F5F5</color>
+    
+    <!-- Color rojo de manuel -->
+    <color name="red">#F94F4F</color>
+</resources>

@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">¡Charadas!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="logo">¡Charadas!</string>
+    <string name="slogan">¡Elige un tema y a jugar!</string>
+    <string name="juego_r_pido">Juego rápido</string>
+    <string name="crear_borrar">Crear/Borrar</string>
+    <string name="pel_culas">Películas</string>
+    <string name="personajes">Personajes</string>
+    <string name="animales">Animales</string>
+    <string name="artistas">Artistas</string>
+    <string name="_actualo_">¡Actualo!</string>
+    <string name="super_heroes">Super Heroes</string>
+    <string name="video_juegos">Video Juegos</string>
+    <string name="pa_ses">Países</string>
+    <string name="series_de_tv">Series de TV</string>
+    <string name="series_para_ni_os">Series para niños</string>
+    <string name="como_jugar">Como Jugar</string>
+    <string name="configuraci_n">Configuración</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="welcomeContentDialog">Recomendamos ver el tutorial para saber cómo se juega a ¡Charadas!</string>
+    <string name="welcomeContentDialog2">(También puedes saltarlo si ya sabes o verlo después)</string>
+    <string name="ya_se_jugar">Ya se jugar</string>
+    <string name="ver_tutorial">Ver tutorial</string>
+    <string name="title_activity_timer">TimerActivity</string>
+    <string name="timer_text_5">5</string>
+    <string name="coloca_el_m_vil_tablet_en_tu_frente">Coloca el móvil/tablet en tu frente</string>
+    <string name="txtFirstAboutUsScreen">Esta app fue desarrollada por:</string>
+    <string name="txtFirstAboutUsScreen2">Por el equipo de desarrollo móvil.</string>
+    <string name="txtFirstAboutUsScreen3">(Desliza hacia la izquierda para ver sorpresas)</string>
+    <string name="txtTutorial1_Fragment1">Bienvenido al tutorial de ¡Charadas!\nJugar es muy sencillo y aquí lo verás.\n</string>
+    <string name="txtTutorial2_Fragment1">(Desliza hacia la izquierda para leer más)</string>
+    <string name="txtTutorial1_Fragment2">Lo primero que tienes que hacer es elegir el tema que más te interese.\nYa que lo hayas hecho pon el móvil o tablet en tu frente.</string>
+    <string name="txtTutorial1_Fragment3">Ahora, tu familia o amigos te tienen que dar pistas sobre la palabra que tienes en la frente.
+	    \nSi aciertas, tienes que inclinar tu móvil o tablet hacia arriba
+	     e inmediatamente escucharás un sonido de confirmación que te indicará que acertaste
+	      y automáticamente mostrará otra palabra.</string>
+    <string name="txtTutorial1_Fragment4">Si no logras acertar la palabra, tienes que pasar a otra ¡porque el tiempo se agota!\nPara hacerlo, haz lo contrario de acertar, inclina tu móvil o tablet hacia abajo y de igual manera se te confirmará y se pasará a otra palabra.</string>
+    <string name="txtTutorial1_Fragment5">¡Y eso es Todo!\nAhora lo que tienes que hacer es divertirte y retar a tus amigos o familia.</string>
+
+    <string-array name="arrayAnimals">
+        <item>Abeja</item>
+        <item>Ácaro</item>
+        <item>Águila</item>
+        <item>Alce</item>
+        <item>Almeja</item>
+        <item>Alpaca</item>
+        <item>Araña</item>
+        <item>Ardilla</item>
+        <item>Avestruz</item>
+        <item>Avispa</item>
+        <item>Azno</item>
+        <item>Babosa</item>
+        <item>Ballena</item>
+        <item>Buey</item>
+        <item>Búho</item>
+        <item>Buitre</item>
+        <item>Burro</item>
+        <item>Caballito de mar</item>
+        <item>Caballo</item>
+        <item>Cabra</item>
+        <item>Caimán</item>
+        <item>Calamar</item>
+        <item>Camello</item>
+        <item>Cangrejo</item>
+        <item>Canguro</item>
+        <item>Caracol</item>
+        <item>Cebra</item>
+        <item>Cerdo</item>
+        <item>Chimpancé</item>
+        <item>Ciempiés</item>
+        <item>Ciervo</item>
+        <item>Cigüeña</item>
+        <item>Cisne</item>
+        <item>Cobra</item>
+        <item>Lombriz</item>
+        <item>Loro</item>
+        <item>Peña nieto</item>
+        <item>Cocodrilo</item>
+        <item>Mono</item>
+        <item>Morsa</item>
+        <item>Piojo</item>
+        <item>Venado</item>
+        <item>Pitón</item>
+        <item>Murciélago</item>
+        <item>León</item>
+        <item>Víbora</item>
+        <item>Perro</item>
+        <item>Gato</item>
+        <item>Paloma</item>
+        <item>Panda</item>
+    </string-array>
+    <string-array name="arrayQuickPlay">
+        <item>Nelson Mandela</item>
+        <item>Ernesto Che Guevara</item>
+        <item>Albert Einstein</item>
+        <item>Mahatma Gandhi</item>
+        <item>Guadalupe Victoria</item>
+        <item>Porfirio Díaz</item>
+        <item>Isaac Newton</item>
+        <item>Madre Teresa de Calcuta</item>
+        <item>Cristóbal Colón</item>
+        <item>Vladimir Lenin</item>
+        <item>Cadena Perpetua</item>
+        <item>El padrino</item>
+        <item>El caballero oscuro</item>
+        <item>Pulp Fiction</item>
+        <item>El bueno, el feo y el malo</item>
+        <item>La lista de schindler</item>
+        <item>Hombres sin piedad</item>
+        <item>El señor de los anillos</item>
+        <item>The Fight Club</item>
+        <item>Star Wars</item>
+        <item>Grecia</item>
+        <item>Guatemala</item>
+        <item>Suecia</item>
+        <item>Suiza</item>
+        <item>México</item>
+        <item>Japón</item>
+        <item>Jamaica</item>
+        <item>Costa de Marfil</item>
+        <item>Estonia</item>
+        <item>Reino Unido</item>
+        <item>Star Fox</item>
+        <item>The Legend of Zelda</item>
+        <item>Polybius</item>
+        <item>Left 4 Dead</item>
+        <item>¡Charadas!</item>
+        <item>E.T. the Extra-Terrestrial</item>
+        <item>DOTA</item>
+        <item>League of Legends</item>
+        <item>world of warcraft</item>
+        <item>StarCraft</item>
+        <item>Pink</item>
+        <item>Daft Punk</item>
+        <item>Maroon 5</item>
+        <item>Pharrell Williams</item>
+        <item>The Beatles</item>
+        <item>Elvis Presley</item>
+        <item>Michael Jackson</item>
+        <item>Madonna</item>
+        <item>Elton John</item>
+        <item>Led Zeppelin</item>
+    </string-array>
+    <string-array name="arrayMovies">
+        <item>Cadena Perpetua</item>
+        <item>El padrino</item>
+        <item>El caballero oscuro</item>
+        <item>Pulp Fiction</item>
+        <item>El bueno, el feo y el malo</item>
+        <item>La lista de schindler</item>
+        <item>Hombres sin piedad</item>
+        <item>El señor de los anillos</item>
+        <item>The Fight Club</item>
+        <item>Star Wars</item>
+        <item>Inception</item>
+        <item>Forrest Gump</item>
+        <item>GoodFellas</item>
+        <item>Matrix</item>
+        <item>Spider Man</item>
+        <item>Crepusculo</item>
+        <item>Casablanca</item>
+        <item>La vida es bella</item>
+        <item>Indiana Jones</item>
+        <item>American History X</item>
+        <item>City Lights</item>
+        <item>Salvando al soldado Ryan</item>
+        <item>Terminator</item>
+        <item>El pianista</item>
+        <item>The Green Mile</item>
+        <item>Apocalypse Now</item>
+        <item>Gladiador</item>
+        <item>Volver al Futuro</item>
+        <item>Alien</item>
+        <item>Batman</item>
+        <item>El Rey León</item>
+        <item>American Beauty</item>
+        <item>Wall-E</item>
+        <item>Amelie</item>
+        <item>Ciudadano Kane</item>
+        <item>Toy Story</item>
+        <item>Taxi Driver</item>
+        <item>La naranja mecánica</item>
+        <item>Réquiem por un sueño</item>
+        <item>Braveheart</item>
+        <item>Full Metal Jacket</item>
+        <item>Los Dioses deben de estar locos</item>
+        <item>Bastardos sin gloria</item>
+        <item>El lobo de Wall Street</item>
+        <item>Up</item>
+        <item>Gran Torino</item>
+        <item>12 años de esclavitud</item>
+        <item>Gravity</item>
+        <item>V de Vendetta</item>
+        <item>her</item>
+    </string-array>
+    <string-array name="arrayCharacters">
+        <item>Nelson Mandela</item>
+        <item>Ernesto Che Guevara</item>
+        <item>Albert Einstein</item>
+        <item>Mahatma Gandhi</item>
+        <item>Guadalupe Victoria</item>
+        <item>Porfirio Díaz</item>
+        <item>Isaac Newton</item>
+        <item>Madre Teresa de Calcuta</item>
+        <item>Cristóbal Colón</item>
+        <item>Vladimir Lenin</item>
+        <item>Martin Luther King</item>
+        <item>Galileo Galilei</item>
+        <item>Yosif Stalin</item>
+        <item>Mao Tse Tung</item>
+        <item>Charles Darwin</item>
+        <item>Rosa Luxemburg</item>
+        <item>Charles Chaplin</item>
+        <item>John Lennon</item>
+        <item>Pablo Picasso</item>
+        <item>Marie Curie</item>
+        <item>Emiliano Zapata</item>
+        <item>Benito Juárez</item>
+        <item>Aristóteles</item>
+        <item>Alexander Fleming</item>
+        <item>Louis Pasteur</item>
+        <item>Platón</item>
+        <item>Sócrates</item>
+        <item>Adolf Hitler</item>
+        <item>Napoleon Bonaparte</item>
+        <item>Arquímedes</item>
+        <item>William Shakespeare</item>
+        <item>Miguel de Cervantes</item>
+        <item>Nicolás Copérnico</item>
+        <item>Alejandro Magno</item>
+        <item>Winston Churchill</item>
+        <item>Walt Disney</item>
+        <item>Isabel La Católica</item>
+        <item>Pitágoras de Samos</item>
+        <item>Jean-Paul Sartre</item>
+        <item>Nikola Tesla</item>
+        <item>Johannes Gutenberg</item>
+        <item>Cleopatra</item>
+        <item>José de San Martín</item>
+        <item>Thomas Alva Edison</item>
+        <item>Friedrich Nietzsche</item>
+        <item>Sigmund Freud</item>
+        <item>Julio Verne</item>
+        <item>Euclides</item>
+        <item>Alexander Graham Bell</item>
+        <item>Cuauhtémoc</item>
+    </string-array>
+    <string-array name="arrayVideoGames">
+        <item>Tetris</item>
+        <item>Minecraft</item>
+        <item>Super Mario Bros</item>
+        <item>Flappy Bird</item>
+        <item>Grand Theft Auto</item>
+        <item>Call of Duty</item>
+        <item>Prototype</item>
+        <item>Outlast</item>
+        <item>Pokémon</item>
+        <item>Angry Birds</item>
+        <item>The Sims</item>
+        <item>The Elder Scrolls</item>
+        <item>Battlefield</item>
+        <item>Dark Souls</item>
+        <item>Diablo</item>
+        <item>DiRT</item>
+        <item>Gears of War</item>
+        <item>Half Life</item>
+        <item>Halo</item>
+        <item>Manhunt</item>
+        <item>Need For Speed</item>
+        <item>Age of Empires</item>
+        <item>Bioshock</item>
+        <item>Assasin\'s Creed</item>
+        <item>Dead Space</item>
+        <item>Far Cry</item>
+        <item>Resident Evil</item>
+        <item>Call of Juarez</item>
+        <item>Battletoads</item>
+        <item>Pac-Man</item>
+        <item>Asteroids</item>
+        <item>Space Invaders</item>
+        <item>Bomber Man</item>
+        <item>Mega Man</item>
+        <item>Donkey Kong</item>
+        <item>FIFA</item>
+        <item>Double Dragon</item>
+        <item>Street Fighter</item>
+        <item>Team Fortress 2</item>
+        <item>Mortal Kombat</item>
+        <item>Star Fox</item>
+        <item>The Legend of Zelda</item>
+        <item>Polybius</item>
+        <item>Left 4 Dead</item>
+        <item>¡Charadas!</item>
+        <item>E.T. the Extra-Terrestrial</item>
+        <item>DoTA</item>
+        <item>League of Legends</item>
+        <item>world of warcraft</item>
+        <item>StarCraft</item>
+    </string-array>
+    <string-array name="arrayArtists">
+        <item>Katy Perry</item>
+        <item>Eminem</item>
+        <item>Miley Cyrus</item>
+        <item>Imagine Dragons</item>
+        <item>Drake</item>
+        <item>Lorde</item>
+        <item>Luke Bryan</item>
+        <item>Robin Ticke</item>
+        <item>One Direction</item>
+        <item>Avicii</item>
+        <item>Lady Gaga</item>
+        <item>Florida</item>
+        <item>Jay-Z</item>
+        <item>Justin Timberlake</item>
+        <item>Bruno Mars</item>
+        <item>Pitbull</item>
+        <item>Mackelmore</item>
+        <item>Beyoncé</item>
+        <item>Paramore</item>
+        <item>Selena Gomez</item>
+        <item>Pink</item>
+        <item>Daft Punk</item>
+        <item>Maroon 5</item>
+        <item>Pharrell Williams</item>
+        <item>The Beatles</item>
+        <item>Elvis Presley</item>
+        <item>Michael Jackson</item>
+        <item>Madonna</item>
+        <item>Elton John</item>
+        <item>Led Zeppelin</item>
+        <item>Pink Floyd</item>
+        <item>Mariah Carey</item>
+        <item>Celine Dion</item>
+        <item>Whitney Houston</item>
+        <item>AC/DC</item>
+        <item>Queen</item>
+        <item>The Rolling Stones</item>
+        <item>ABBA</item>
+        <item>U2</item>
+        <item>Eagles</item>
+        <item>Billy Joel</item>
+        <item>Aerosmith</item>
+        <item>Metallica</item>
+        <item>Frank Sinatra</item>
+        <item>Julio Iglesias</item>
+        <item>Rod Stewart</item>
+        <item>Prince</item>
+        <item>Paul McCartney</item>
+        <item>Gun N\' Roses</item>
+        <item>Britney Spears</item>
+    </string-array>
+    <string-array name="arrayActItOut">
+        <item>Preguntar</item>
+        <item>Creer</item>
+        <item>Prestar</item>
+        <item>Romper</item>
+        <item>Traer</item>
+        <item>Comprar</item>
+        <item>Poder</item>
+        <item>Cancelar</item>
+        <item>Cambiar</item>
+        <item>Limpiar</item>
+        <item>Peinar</item>
+        <item>Quejarse</item>
+        <item>Toser</item>
+        <item>Contar</item>
+        <item>Cortar</item>
+        <item>Bailar</item>
+        <item>Dibujar</item>
+        <item>Beber</item>
+        <item>Conducir</item>
+        <item>Comer</item>
+        <item>Explicar</item>
+        <item>Caerse</item>
+        <item>Llenar</item>
+        <item>Encontrar</item>
+        <item>Terminar</item>
+        <item>Caber</item>
+        <item>Reparar</item>
+        <item>Volar</item>
+        <item>Olvidar</item>
+        <item>Dar</item>
+        <item>Ir</item>
+        <item>Cerrar</item>
+        <item>Organizar</item>
+        <item>Pagar</item>
+        <item>Jugar</item>
+        <item>Poner</item>
+        <item>Llover</item>
+        <item>Leer</item>
+        <item>Responder</item>
+        <item>Correr</item>
+        <item>Ver</item>
+        <item>Vender</item>
+        <item>Enviar</item>
+        <item>Firmar</item>
+        <item>Cantar</item>
+        <item>Sentarse</item>
+        <item>Dormir</item>
+        <item>Fumar</item>
+        <item>Deletrear</item>
+        <item>Gastar</item>
+    </string-array>
+    <string-array name="arraySuperHeroes">
+        <item>Linterna Verde</item>
+        <item>Spawn</item>
+        <item>Venom</item>
+        <item>Nite Owl</item>
+        <item>Mujer Maravilla</item>
+        <item>Señor Fantastico</item>
+        <item>Mujer Invisible</item>
+        <item>La Mole</item>
+        <item>La Antorcha humana</item>
+        <item>Flecha Roja</item>
+        <item>Niño Flash</item>
+        <item>Robin</item>
+        <item>Beast Boy</item>
+        <item>Dr. Manhattan</item>
+        <item>Cyborg</item>
+        <item>Super Man</item>
+        <item>Batichica</item>
+        <item>Rayo Negro</item>
+        <item>Capitan Marvel</item>
+        <item>Spider Man</item>
+        <item>Spider Girl</item>
+        <item>AquaMan</item>
+        <item>Iron Man</item>
+        <item>Thor</item>
+        <item>Wolverine</item>
+        <item>Ojo de Halcón</item>
+        <item>Miss Arrowette</item>
+        <item>Flash</item>
+        <item>Deadpool</item>
+        <item>Tormenta</item>
+        <item>Profesor X</item>
+        <item>Detective Marciano</item>
+        <item>Más y Menos</item>
+        <item>Ravager</item>
+        <item>Daredevil</item>
+        <item>Krypto</item>
+        <item>The Comedian</item>
+        <item>Blue Beetle</item>
+        <item>Raven</item>
+        <item>Nova</item>
+        <item>Silver Surfer</item>
+        <item>Hulk</item>
+        <item>Ghost Rider</item>
+        <item>Blade</item>
+        <item>Tortugas Ninja</item>
+        <item>Leonidas</item>
+        <item>Doctor Extraño</item>
+        <item>Kick Ass</item>
+        <item>Punisher</item>
+        <item>Gokú</item>
+    </string-array>
+    <string-array name="arrayTvShows">
+        <item>Los Simpson</item>
+        <item>Friends</item>
+        <item>House</item>
+        <item>Breaking Bad</item>
+        <item>Malcom</item>
+        <item>Lost</item>
+        <item>How i meet your mother</item>
+        <item>Prision Break</item>
+        <item>Dexter</item>
+        <item>Smallville</item>
+        <item>Grey\'s Anatomy</item>
+        <item>Bones</item>
+        <item>Gossip Girl</item>
+        <item>Mentes Criminales</item>
+        <item>My name is Earl</item>
+        <item>Los Soprano</item>
+        <item>Heroes</item>
+        <item>Esposas Desesperadas</item>
+        <item>Ghost Whisperer</item>
+        <item>The O.C</item>
+        <item>CSI: Las Vegas</item>
+        <item>The Wire</item>
+        <item>24</item>
+        <item>Monk</item>
+        <item>Six Feet Under</item>
+        <item>E.R</item>
+        <item>Doctor Who</item>
+        <item>Californication</item>
+        <item>The Shield</item>
+        <item>Mad Men</item>
+        <item>Medium</item>
+        <item>The Office</item>
+        <item>Ugly Betty</item>
+        <item>Weeds</item>
+        <item>Battlestar Galactica</item>
+        <item></item>
+        <item>Alias</item>
+        <item>Brothers &amp; Sisters</item>
+        <item>The West Wing</item>
+        <item>The Practice</item>
+        <item>30 Rock</item>
+        <item>New Girl</item>
+        <item>The Big Bang Theory</item>
+        <item>Padre de Familia</item>
+        <item>seinfeld</item>
+        <item>Under The Dome</item>
+        <item>Will &amp; Grace</item>
+        <item>Game Of Thrones</item>
+        <item>House of Cards</item>
+        <item>Orange is The New Black</item>
+    </string-array>
+    <string-array name="arrayTvShowsForKids">
+        <item>Los simpsons</item>
+        <item>Tom y Jerry</item>
+        <item>South Park</item>
+        <item>Toy Story</item>
+        <item>Padre de Familia</item>
+        <item>Shrek</item>
+        <item>El Rey León</item>
+        <item>Los Increibles</item>
+        <item>Bugs Bunny</item>
+        <item>Los Supersónicos</item>
+        <item>Buscando a Nemo</item>
+        <item>Aladino</item>
+        <item>Ren y Stimpy</item>
+        <item>Monsters, Inc</item>
+        <item>Popeye</item>
+        <item>Pinocho</item>
+        <item>Futurama</item>
+        <item>Las Tortugas Ninja</item>
+        <item>Bob Esponja</item>
+        <item>El Pato Donald</item>
+        <item>El show de Mickey</item>
+        <item>Beavis y Butthead</item>
+        <item>He-Man y los amos del universo</item>
+        <item>Silvestre y Piolin</item>
+        <item>101 Dalmatas</item>
+        <item>Rugrats</item>
+        <item>Samurai Jack</item>
+        <item>Spider-Man</item>
+        <item>Pokemon</item>
+        <item>Inspector Gadget</item>
+        <item>Scooby Doo</item>
+        <item>Bob El Constructor</item>
+        <item>El pato Lucas</item>
+        <item>Thundercats</item>
+        <item>Winnie Pooh</item>
+        <item>Las Chicas Superpoderosas</item>
+        <item>Coraje El Perro Cobarde</item>
+        <item>Bichos</item>
+        <item>Peter Pan</item>
+        <item>El Oso Yogi</item>
+        <item>Dumbo</item>
+        <item>El Grinch</item>
+        <item>El Chavo del Ocho</item>
+        <item>Chespirito</item>
+        <item>Super Campeones</item>
+        <item>Dragon Ball Z</item>
+        <item>Digimon</item>
+        <item>Zoids</item>
+        <item>Los Caballeros del Zodiaco</item>
+        <item>Hora de Aventura</item>
+    </string-array>
+    <string-array name="arrayCountries">
+        <item>Australia</item>
+        <item>Alemania</item>
+        <item>Argentina</item>
+        <item>Portugal</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Belice</item>
+        <item>Bolivia</item>
+        <item>El Salvador</item>
+        <item>Cuba</item>
+        <item>Corea del Sur</item>
+        <item>Corea del Norte</item>
+        <item>Irak</item>
+        <item>Irán</item>
+        <item>Egipto</item>
+        <item>Francia</item>
+        <item>Rusia</item>
+        <item>Colombia</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>España</item>
+        <item>Estados Unidos</item>
+        <item>Brasil</item>
+        <item>Dinamarca</item>
+        <item>Ecuador</item>
+        <item>Costa Rica</item>
+        <item>India</item>
+        <item>Uruguay</item>
+        <item>Israel</item>
+        <item>Italia</item>
+        <item>Grecia</item>
+        <item>Guatemala</item>
+        <item>Suecia</item>
+        <item>Suiza</item>
+        <item>México</item>
+        <item>Japón</item>
+        <item>Jamaica</item>
+        <item>Costa de Marfil</item>
+        <item>Estonia</item>
+        <item>Reino Unido</item>
+        <item>Perú</item>
+        <item>Polonia</item>
+        <item>Ucrania</item>
+        <item>Croacia</item>
+        <item>Turquía</item>
+        <item>Honduras</item>
+        <item>Austria</item>
+        <item>Noruega</item>
+        <item>Madagascar</item>
+        <item>Nueva Zelanda</item>
+    </string-array>
+
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="title_activity_about_us_first_fragment">AboutUsFirstFragmentActivity</string>
+    <string name="title_activity_about_us_second_fragment">AboutUsSecondFragment</string>
+    <string name="fl4ppy_math">Fl4ppy Math</string>
+    <string name="promo_fl4ppy_math">Divertido juego para niños donde pueden mejorar sus habilidades de suma, resta, multiplicación y división.</string>
+    <string name="promoButton">¡Consíguela ahora!</string>
+    <string name="title_activity_playing">PlayingActivity</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="_te_quedaste_sin_palabras_">¡Te quedaste sin palabras!</string>
+    <string name="_correcto_">¡Correcto!</string>
+    <string name="_paso_">¡Paso!</string>
+    <string name="_se_agoto_el_tiempo_">¡Se agoto el tiempo!</string>
+    <string name="_increible_nos_has_dejado_sin_palabras_">¡Increible, nos has dejado sin palabras!</string>
+    <string name="title_activity_configuration">ConfigurationActivity</string>
+    <string name="configuration">Configuración</string>
+    <string name="menu">Menu</string>
+    <string name="tiempo_de_la_partida">Tiempo de la partida</string>
+    <string name="con_cenos">Conócenos</string>
+    <string name="title_activity_results">ResultsActivity</string>
+    <string name="palabras_acertadas">Palabras Acertadas</string>
+    <string name="palabras_que_pasaste">Palabras que pasaste</string>
+    <string name="volver_a_jugar">Volver a jugar</string>
+    <string name="palabras_acertadas_">"Palabras acertadas: "</string>
+    <string name="palabras_que_pasaste_">"Palabras que pasaste: "</string>
+    <string name="title_activity_tutorial">TutorialActivity</string>
+    <string name="title_makecard_list">MakeCards</string>
+    <string name="title_makecard_detail">MakeCard Detail</string>
+    <string name="_ha_sido_eliminado_">" ha sido eliminado."</string>
+    <string name="_borrado">" borrado"</string>
+    <string name="escriba_el_nombre_de_la_nueva_carta_">Escriba el nombre de la nueva carta.</string>
+    <string name="_ya_esta_en_la_lista_">" ya esta en la lista."</string>
+    <string name="agrega_una_nueva_carta_primero_">Agrega una nueva carta primero.</string>
+    <string name="seleccione_las_cartas_a_guardar_">Seleccione las cartas a guardar.</string>
+    <string name="desea_guardar_las_nuevas_cartas_antes_de_jugar_">Desea guardar las nuevas cartas antes de jugar?</string>
+    <string name="las_cartas_nuevas_solo_se_guardaran_si_las_ha_seleccionado_">Las cartas nuevas solo se guardaran si las ha seleccionado.</string>
+    <string name="_desea_guardar_las_nuevas_cartas_">¿Desea guardar las nuevas cartas?</string>
+    <string name="seleccione_las_cartas_para_jugar_">Seleccione las cartas para jugar.</string>
+    <string name="recuerde_guardar_las_nuevas_cartas_antes_de_jugar_">Recuerde guardar las nuevas cartas antes de jugar.</string>
+    <string name="guardar">Guardar</string>
+    <string name="_que_paso_fue_mucho_para_ti_">¿Que paso, fue mucho para ti?</string>
+    <string name="_que_paso_ni_siquiera_una_palabra_">¿Que paso, ni siquiera una palabra?</string>
+    <string name="increible_acertaste_a_todas_las_palabras_">Increible!!, acertaste a todas las palabras!!</string>
+    <string name="no_hay_palabras_para_un_nuevo_juego">No hay palabras para un nuevo juego</string>
+    <string name="solo_jugar">Solo jugar</string>
+    <string name="tiempo_de_la_partida_">Tiempo de la partida.</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="_120_segundos">120 segundos</string>
+    <string name="_100_segundos">100 segundos</string>
+    <string name="_80_segundos">80 segundos</string>
+    <string name="_60_segundos">60 segundos</string>
+    <string name="_50_segundos">50 segundos</string>
+    <string name="_40_segundos">40 segundos</string>
+    <string name="_30_segundos">30 segundos</string>
+    <string name="_20_segundos">20 segundos</string>
+    <string name="_10_segundos">10 segundos</string>
+
+</resources>
